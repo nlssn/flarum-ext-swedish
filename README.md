@@ -1,30 +1,34 @@
 # flarum-ext-swedish
- :sweden: The Swedish language extension for [Flarum](http://flarum.org/).
-
-## Project Status
-**Please NOTE!** This extension is still a work in progress.
-
-### To Do
-- [ ] Translate Flarum Core and the bundled extensions.
-- [ ] Setup Packagist repository to simplify installation.
-- [ ] "Launch" by creating a thread over at the [Flarum Community site](https://discuss.flarum.org).
-- [ ] Move on to third-party extensions.
+The Swedish language extension for [Flarum](http://flarum.org/).
 
 ## Information
-**Stable:** [v0.0](#0) | **Unstable:** [v.0.0-dev](#0)
-**Requires:** Flarum 0.1.0 Beta 6
+**Version:** 0.1 | **Released on:** April 27, 2017 | **Requires:** Flarum 0.1.0 Beta 6
 
-### Installation
-Just type the following in your Flarum root folder:
-```
-composer require NOTRELEASEDYET
-```
+This project aims to Swedish translations for the Flarum forum software and many popular community made extensions.
 
-### Extension Compatibility
-This project mainly translates the Flarum Core and it's bundled extensions, but is also compatible with the following third-party extensions:
+**Want to help out?**
+- Report [issues here on GitHub](https://github.com/nlssn/flarum-ext-swedish/issues) or in the [Flarum Community thread](https://discuss.flarum.org/d/5615-swedish-language-extension).
+- Star this repo on GitHub.
+- Send me a [nice tweet](http://twitter.com/iamnlssn).
+
+## Installation
+To install this extension start by running the following command in your Flarum root folder:
+```
+composer require nlssn/flarum-ext-swedish dev-master
+```
+Then activate the extension under _Admin Panel > Extensions_ section.
+Lastly you can go to to the _Basics_ section and set the _Default Language_.
+
+If you ever need to update, just run `composer update` in your Flarum root folder.
+
+## Extension Compatibility
+This project mainly translates the Flarum Core and it's bundled extensions, but it's also compatible with the following third-party extensions:
 - [**Plugin**](#0) by SomeAuthor _(v0.1.0-beta.6)_
 - [**Plugin**](#0) by SomeAuthor _(v0.1.0-beta.6)_
 - [**Plugin**](#0) by SomeAuthor _(v0.1.0-beta.6)_
+
+## Thanks
+A big thanks to [@acarlsson](https://github.com/acarlsson) who created [the first Swedish language extension](https://github.com/acarlsson/flarum-ext-swedish) for Flarum. A lot of the initial translations came from that project. Some things were changed, more has been (and will continue to be) added. Again, thank you!
 
 ## License
 Released under the MIT License. Please see the [LICENSE](https://github.com/nlssn/flarum-ext-swedish/blob/master/LICENSE) file.
