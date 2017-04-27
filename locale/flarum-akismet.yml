@@ -9,7 +9,7 @@ flarum-akismet:
 
     # These translations are used in the Akismet Settings modal dialog.
     akismet_settings:
-      api_key_label: API Nyckel
+      api_key_label: API-nyckel
       title: Inställningar för Akismet
 
   # Translations in this namespace are used by the forum user interface.
