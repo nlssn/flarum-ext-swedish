@@ -4,6 +4,16 @@
     "description": "Swedish language pack.",
     "keywords": ["locale"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Johannes Nilsson",
+            "email": "johannes@nilsson.im"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nlssn/flarum-ext-swedish/issues",
+        "source": "https://github.com/nlssn/flarum-ext-swedish"
+    },
     "require": {
         "flarum/core": "^0.1.0-beta.6"
     },
@@ -12,7 +22,7 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "Svenska",
+            "title": "Swedish",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
@@ -22,7 +32,7 @@
         },
         "flarum-locale": {
             "code": "sv",
-            "title": "Svenska"
+            "title": "Swedish"
         }
     }
 }
