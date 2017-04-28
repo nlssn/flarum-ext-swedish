@@ -1,14 +1,5 @@
-//! moment.js locale configuration
-//! locale : Swedish [sv]
-//! author : Jens Alm : https://github.com/ulmus
-
-;(function (global, factory) {
-   typeof exports === 'object' && typeof module !== 'undefined'
-       && typeof require === 'function' ? factory(require('../moment')) :
-   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
-   factory(global.moment)
-}(this, (function (moment) { 'use strict';
-
+// Custom Swedish Moment.js locales
+// Based on: https://github.com/moment/moment/blob/develop/locale/sv.js
 
 var sv = moment.defineLocale('sv', {
     months : 'januari_februari_mars_april_maj_juni_juli_augusti_september_oktober_november_december'.split('_'),
@@ -63,7 +54,3 @@ var sv = moment.defineLocale('sv', {
         doy : 4  // The week that contains Jan 4th is the first week of the year.
     }
 });
-
-return sv;
-
-})));
