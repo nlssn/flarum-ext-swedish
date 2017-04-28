@@ -9,10 +9,14 @@ sijad-recaptcha:
 
     # These translations are used in the reCAPTCHA Settings modal dialog.
     recaptcha_settings:
+        #sitekey_label: Site Key
         sitekey_label: Webbplatsnyckel
+        #secret_label: Secret Key
         secret_label: Hemlig nyckel
+        #title: reCAPTCHA Settings
         title: Inställningar för reCAPTCHA
 
 # Translations in this namespace are used in validation
 validation:
+  #recaptcha: 'reCAPTCHA Validation failed, Please try again'
   recaptcha: 'reCAPTCHA kunde inte valideras. Vänligen försök igen.'

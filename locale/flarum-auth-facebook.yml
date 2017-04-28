@@ -9,8 +9,11 @@ flarum-auth-facebook:
 
     # These translations are used in the Facebook Settings modal dialog.
     facebook_settings:
+      #app_id_label: App ID
       app_id_label: ApplikationsID
+      #app_secret_label: App Secret
       app_secret_label: Applikations-hemlighet
+      #title: Facebook Settings
       title: Inställningar för Facebook
 
   # Translations in this namespace are used by the forum user interface.
@@ -18,4 +21,5 @@ flarum-auth-facebook:
 
     # These translations are used in the Log In modal dialog.
     log_in:
+      #with_facebook_button: Log In with Facebook
       with_facebook_button: Logga in med Facebook

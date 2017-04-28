@@ -1,22 +1,41 @@
 issyrocks12-twofactor:
   forum:
+    #accountlabel: Two Factor
     accountlabel: Två-Faktor
+    #reloadmsg: Preparing two factor... please reopen the two factor window.
     reloadmsg: Förbereder två-faktors autentisering... vänligen öppna fönstret för två-faktor igen.
+    #incorrect_2fa: Invalid one time passcode
     incorrect_2fa: Felaktiv engångskod
+    #2fa_disabled: Two factor authentication successfully disabled.
     2fa_disabled: Två-faktors autentisering avaktiverades korrekt.
+    #2fa_enabled: Two factor authentication successfully enabled
     2fa_enabled: Två-faktors autentisering aktiverades korrekt.
+    #remember_me_label: Remember me
     remember_me_label: Kom ihåg mig
     modal:
+      #twofactor_title: Two Factor Setup
       twofactor_title: Installation av två-faktor
+      #heading: Two Factor settings
       heading: Inställningar för två-faktor
+      #switch: Two Factor
       switch: Två-Faktor
+      #QRheading: Two Factor Code
       QRheading: Två-Faktor Kod
+      #help: Scan the QR code, or manually add the code to Google Authenticator or another TOTP app.
       help: Skanna QR-koden, eller lägg till koden manuellt i Google Authenticator eller en annan TOTP-applikation.
+      #placeholder: One time passcode
       placeholder: Engångskod
+      #button: Submit
       button: Sänd
+      #2fa_help: Type in the one time passcode from your TOTP app.
       2fa_help: Skriv in engångskoden från din TOTP-applikation.
+      #close: I have saved my codes
       close: Jag har sparat mina koder
+      #recov: Recovery Codes
       recov: Återställningskoder
+      #login_title: Two Factor Authentication
       login_title: Två-faktors autentisering
+      #recov_help1: Please save these codes!
       recov_help1: Vänligen spara de här koderna!
+      #recov_help2: These are your only way back into your account if you lose access to your TOTP app. These codes will not be shown again.
       recov_help2: Detta är det enda sättet du kommer att kunna få tillgång till ditt konto om du inte längre kan komma åt din TOTP-applikation. De här koderna kommer inte att visas igen.
