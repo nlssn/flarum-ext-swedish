@@ -2,23 +2,26 @@
 The Swedish language extension for [Flarum](http://flarum.org/).
 
 ## Information
-**Version:** 0.1 | **Released on:** April 27, 2017 | **Requires:** Flarum 0.1.0 Beta 6
+**Stable:** [0.1.0](https://github.com/nlssn/flarum-ext-swedish/archive/0.1.0.zip) | **Unstable:** [0.1.0-dev](https://github.com/nlssn/flarum-ext-swedish/archive/master.zip) | **Requires:** Flarum v0.1.0-beta.6
 
 This project aims to be a central repo for Swedish translations of the Flarum forum software and many popular community made extensions.
 
 **Want to help out?**
 - Report [issues here on GitHub](https://github.com/nlssn/flarum-ext-swedish/issues) or in the [Flarum Community thread](https://discuss.flarum.org/d/5615-swedish-language-extension).
+- Give [suggestions](https://github.com/nlssn/flarum-ext-swedish/issues) on which [community extensions](https://discuss.flarum.org/t/extensions) should be translated next.
+- Clone the [English Language Pack](https://github.com/flarum/flarum-ext-english) and translate it to your own language. Be sure to check for [existing](https://github.com/moutonnoireu/flarumextlist/wiki/Extension-List) [translations](https://discuss.flarum.org/t/languages) first.
 - Star this repo on GitHub.
-- Send me a [nice tweet](http://twitter.com/iamnlssn).
+- Send me a [nice tweet](http://twitter.com/iamnlssn) ;)
 
 ## Installation
 To install this extension start by running the following command in your Flarum root folder:
 ```
-composer require nlssn/flarum-ext-swedish dev-master
+composer require nlssn/flarum-ext-swedish
 ```
-Then activate the extension under _Admin Panel > Extensions_ section.
+Then activate the extension under _Admin Panel > Extensions_ section.<br>
 Lastly you can go to to the _Basics_ section and set the _Default Language_.
 
+If you want to try the unstable version you can run `composer require nlssn/flarum-ext-swedish dev-master` instead.<br>
 If you ever need to update, just run `composer update` in your Flarum root folder.
 
 ## Extension Compatibility
