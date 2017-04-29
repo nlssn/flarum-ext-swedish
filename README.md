@@ -2,7 +2,7 @@
 The Swedish language extension for [Flarum](http://flarum.org/).
 
 ## Information
-**Stable:** [0.1.0](https://github.com/nlssn/flarum-ext-swedish/archive/0.1.0.zip) | **Unstable:** [0.1.0-dev](https://github.com/nlssn/flarum-ext-swedish/archive/master.zip) | **Requires:** Flarum v0.1.0-beta.6
+**Stable:** [1.0.0](https://github.com/nlssn/flarum-ext-swedish/archive/v1.0.0.zip) | **Unstable:** [1.0.0-dev](https://github.com/nlssn/flarum-ext-swedish/archive/master.zip) | **Requires:** Flarum v0.1.0-beta.6
 
 This project aims to be a central repo for Swedish translations of the Flarum forum software and many popular community made extensions.
 
