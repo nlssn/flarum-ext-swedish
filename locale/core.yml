@@ -451,7 +451,9 @@ core:
     post:
       #edited_text: Edited
       edited_text: Redigerad
+      #edited_tooltip: "{username} edited {ago}"
       edited_tooltip: "{username} redigerade {ago}"
+      #number_tooltip: "Post #{number}"
       number_tooltip: "Inlägg #{number}"
 
     # These translations are used by the post control buttons.
@@ -481,7 +483,7 @@ core:
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       #time_lapsed_text: "{period} later"
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} senare"
 
     # These translations are used by the search results dropdown list.
     search:
