@@ -1,0 +1,49 @@
+issyrocks12-filter:
+    forum:
+        #flagger_name: Auto Moderator
+        flagger_name: Automoderator
+        #flaged_text: Contained blocked strings
+        flaged_text: Innehöll blockerade strängar
+    admin:
+        #title: Filter
+        title: Filtrera
+        #help: Input strings seperated by a comma and a space.
+        help: Skriv in strängar separerade med ett kommatecken och ett mellanslag.
+        #email_help: Body of flagged email. Accepts html or plaintext.
+        email_help: Brödtext för email om flaggning. Kan vara HTML eller klartext.
+        #filter_label: Strings to filter
+        filter_label: Strängar att filtrera
+        input:
+            #placeholder: Strings to be filtered
+            placeholder: Strängar som ska filtreras
+            #filter_title: Strings to filter
+            filter_title: Strängar att filtrera
+            #email_label: Email Settings
+            email_label: Inställningar för e-post
+            switch:
+              #email: Email user when post is filter
+              email: Skicka email till användaren när ett inlägg är filtrerat
+              #merge: Auto merge double posts
+              merge: Slå samman dubbelinlägg automatiskt
+            #email_subject: Subject
+            email_subject: Ämne
+            #email_body: Body
+            email_body: Brödtext
+        nav:
+            #ext: Filter
+            text: Filter
+            #desc: Filter posts by words
+            desc: Filtrera inlägg efter ord
+        email:
+            #default_subject: Regarding Your Recent Post
+            default_subject: Angående ditt senaste inlägg
+            #default_text:
+            #Thank you for posting! Unfortunately, your post was removed because it contained something we don't want to see on our forums.
+            #If you believe this was an error, you are in luck, each removed post is reviewed by our moderators. If they find that this was wrongfully removed, they will restore it.
+            #Thank you for your understanding.
+            default_text: |
+                Tack för att du gjort ett inlägg! Tyvärr så har ditt inlägg blvit borttaget eftersom det innehåll material som vi inte vill se i vårt forum.
+
+                Om du tror att detta är inte stämmer så kan du vara lugn. Varje inlägg som filtrerats bort kontrolleras av våra moderatorer. Om de anser att ditt inlägg inte ska raderas, så kommer dem att återställa det.
+
+                Tack för visad förståelse.
