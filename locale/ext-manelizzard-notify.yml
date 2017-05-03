@@ -39,7 +39,7 @@ flarum-notify:
       #title: HipChat settings
       title: Inställningar för HipChat
       #description: To obtain the token, visit your the room settings over at hipchat.com (Login, click on `rooms` and select your the room you want to post to). Click on `Tokens` and create a new one. The label you provide for the token will be shown with each notification.
-      description: För att få en API-nyckel, gå till inställningarna för ditt rum på hipchat.com (Logga in, klicka på `rooms` och välj rummet som du vill att notifikationer ska skickas i). Klicka på `Tokens` och skapa en ny. Etiketten du anger för API-nyckeln kommer att visas vid varje notifikation.
+      description: För att få en API-nyckel, gå till inställningarna för ditt rum på <a>hipchat.com</a> (Logga in, klicka på `rooms` och välj rummet som du vill att notifikationer ska skickas i). Klicka på `Tokens` och skapa en ny. Etiketten du anger för API-nyckeln kommer att visas vid varje notifikation.
       #token: HipChat token
       token: HipChat API-nyckel
       #room: Room to post to (name or id)
@@ -57,7 +57,7 @@ flarum-notify:
       #title: Telegram settings
       title: Inställningar för Telegram
       #description: In order to set up your bot, follow the <aBot>instructions</aBot>. Then <aChatId>obtain a chat ID</aChatId>.
-      description: För att sätta upp din bot, börja med att folja <a>instruktionerna</a>. Därefter kan du <a>erhålla ett chattID</a>.
+      description: För att sätta upp din bot, börja med att folja <aBot>instruktionerna</aBot>. Därefter kan du <aChatId>erhålla ett chattID</aChatId>.
       #apiKey: Telegram API key
       apiKey: Telegram API-nyckel
       #botName: Telegram bot name
