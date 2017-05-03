@@ -51,5 +51,5 @@ flagrow-bazaar:
                 vendor: Av {vendor}
                 #favorited: One of your favorites
                 favorited: Ett av dina favoriter
-#outdated: "Extension is outdated, please update to version {new}"
-outdated: "Tillägget är gammalt, vänligen uppdatera till version {new}"
+                #outdated: "Extension is outdated, please update to version {new}"
+                outdated: "Tillägget är gammalt, vänligen uppdatera till version {new}"
