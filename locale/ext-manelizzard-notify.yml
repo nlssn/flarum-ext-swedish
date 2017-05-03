@@ -1,0 +1,66 @@
+flarum-notify:
+  admin:
+    #title: Notify
+    title: Notifikationer
+    #description: Manage your notifications to Slack, Hipchat and Gitter.
+    description: Ställ in notifikationer för Slack, Hipchat och Gitter.
+    services:
+      #title: Notification services
+      title: Notifikationstjänster
+      #description: Choose which services should be notified when there is something to notify you about.
+      description: Välj vilja tjänster som ska notifieras när något nytt händer.
+    events:
+      #title: Notification events
+      title: Notifikationshändelser
+      #description: Choose which events should trigger a notification. Send notifications, when
+      description: Välj vilka händelser som ska utlösa en notifikation. Skicka notifikationer när
+      #discussion_started: a new discussion was started
+      discussion_started: en ny tråd startas
+      #discussion_deleted: a discussion was deleted
+      discussion_deleted: en tråd raderas
+      #post_posted: a new post was posted
+      post_posted: ett nytt inlägg läggs upp
+      #post_hidden: a post was hidden
+      post_hidden: ett inlägg markeras som dolt
+      #post_deleted: a post was deleted
+      post_deleted: ett inlägg raderas
+    slack-modal:
+      #title: Slack settings
+      title: Inställningar för Slack
+      #description: In order to obtain the token, visit <a>https://api.slack.com/web</a>
+      description: För att få en API-nyckel, besök <a>https://api.slack.com/web</a>
+      #token: Slack token
+      token: Slack API-nyckel
+      #channel: Channel to post to
+      channel: Kanal att skicka till
+      #username: Username
+      username: Användarnamn
+    hipchat-modal:
+      #title: HipChat settings
+      title: Inställningar för HipChat
+      #description: To obtain the token, visit your the room settings over at hipchat.com (Login, click on `rooms` and select your the room you want to post to). Click on `Tokens` and create a new one. The label you provide for the token will be shown with each notification.
+      description: För att få en API-nyckel, gå till inställningarna för ditt rum på hipchat.com (Logga in, klicka på `rooms` och välj rummet som du vill att notifikationer ska skickas i). Klicka på `Tokens` och skapa en ny. Etiketten du anger för API-nyckeln kommer att visas vid varje notifikation.
+      #token: HipChat token
+      token: HipChat API-nyckel
+      #room: Room to post to (name or id)
+      room: Rum att skicka till (Namn eller ID)
+      #warning: Notify does not work with self-hosted HipChat.
+      warning: Notifikationer fungerar inte om du har HipChat på din egen server.
+    gitter-modal:
+      #title: Gitter settings
+      title: Inställningar för Gitter
+      #description: In order to get your webhook url, visit the room you want to post to on <a>gitter.im</a>. Click on the <i>Settings</i> icon <i>Integrations</i> <i>Custom</i>. This will create a new webhook url for you.
+      description: För att få en `webhook URL`, gå till rummet som du vill att notifikationer ska skickas till på <a>gitter.im</a>. Klicka på ikonen för <i>Settings</i> <i>Integrations</i> <i>Custom</i>. Då kommer en `webhook URL` att skapas till dig.
+      #webhook: Gitter webhook
+      webhook: Gitter webhook
+    telegram-modal:
+      #title: Telegram settings
+      title: Inställningar för Telegram
+      #description: In order to set up your bot, follow the <aBot>instructions</aBot>. Then <aChatId>obtain a chat ID</aChatId>.
+      description: För att sätta upp din bot, börja med att folja <a>instruktionerna</a>. Därefter kan du <a>erhålla ett chattID</a>.
+      #apiKey: Telegram API key
+      apiKey: Telegram API-nyckel
+      #botName: Telegram bot name
+      botName: Telegram-botens namn
+      #chatId: Telegram chat ID
+      chatId: Telegram chattID
