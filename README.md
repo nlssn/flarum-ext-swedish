@@ -1,6 +1,6 @@
 
-# PLEASE NOTE!
-**THIS PROJECT HAS BEEN DISCONTINUED. PLEASE CHECK OUT THE NEW SWEDISH LANGUAGE EXTENSION [HERE](https://discuss.flarum.org/d/6361-swedish-language-pack).**
+# :warning: This project has been discontinued
+## As of 24th July 2017 this Swedish language extension is no longer being maintained. Instead you should use [this extension](https://discuss.flarum.org/d/6361-swedish-language-pack) by @heidarKadkhoda
 
 ## flarum-ext-swedish
 The Swedish language extension for [Flarum](http://flarum.org/).
