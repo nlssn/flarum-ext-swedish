@@ -1,10 +1,10 @@
-# flarum-ext-swedish
-The Swedish language extension for [Flarum](http://flarum.org/).
-
-´´´
+```
 PLEASE NOTE!
 THIS PROJECT HAS BEEN DISCONTINUED. PLEASE CHECK OUT THE NEW SWEDISH LANGUAGE EXTENSION [HERE](https://discuss.flarum.org/d/6361-swedish-language-pack).
-´´´
+```
+
+# flarum-ext-swedish
+The Swedish language extension for [Flarum](http://flarum.org/).
 
 ## Information
 **Stable:** [1.0.0](https://github.com/nlssn/flarum-ext-swedish/archive/v1.0.0.zip) | **Unstable:** [1.0.0-dev](https://github.com/nlssn/flarum-ext-swedish/archive/master.zip) | **Requires:** Flarum v0.1.0-beta.6
