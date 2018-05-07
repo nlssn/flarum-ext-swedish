@@ -1,9 +1,5 @@
-
-# :warning: This project has been discontinued
-## As of 24th July 2017 this Swedish language extension is no longer being maintained. Instead you should use [this extension](https://discuss.flarum.org/d/6361-swedish-language-pack) by @heidarKadkhoda
-
 ## flarum-ext-swedish
-The Swedish language extension for [Flarum](http://flarum.org/).
+A Swedish language extension for [Flarum](http://flarum.org/).
 
 ## Information
 **Stable:** [1.0.0](https://github.com/nlssn/flarum-ext-swedish/archive/v1.0.0.zip) | **Unstable:** [1.0.0-dev](https://github.com/nlssn/flarum-ext-swedish/archive/master.zip) | **Requires:** Flarum v0.1.0-beta.6
