@@ -256,9 +256,9 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: Vi har skickat en återställningslänk till dig via e-post. Kolla din skräppost om du inte mottagit meddelandet inom några minuter.
-      not_found_message: Det finns ingen användare registrearad med den e-postadressen.
+      not_found_message: Det finns ingen användare registrerad med den e-postadressen.
       submit_button: Återställ lösenord
-      text: Ange din e-postadress för att få ett maiol med en länk som kan återställa ditt lösenord.
+      text: Ange din e-postadress för att få ett mail med en länk som kan återställa ditt lösenord.
       title: Glömt lösenord
 
     # These translations are used in the header and session dropdown menu.
