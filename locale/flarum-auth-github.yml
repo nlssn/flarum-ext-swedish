@@ -9,11 +9,8 @@ flarum-auth-github:
 
     # These translations are used in the GitHub Settings modal dialog.
     github_settings:
-      #client_id_label: Client ID
       client_id_label: Klient ID
-      #client_secret_label: Client Secret
       client_secret_label: Klient-hemlighet
-      #title: GitHub Settings
       title: Inställningar för GitHub
 
   # Translations in this namespace are used by the forum user interface.
@@ -21,5 +18,4 @@ flarum-auth-github:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      #with_github_button: Log In with GitHub
       with_github_button: Logga in med GitHub

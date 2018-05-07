@@ -9,11 +9,8 @@ flarum-approval:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      #approve_posts_label: Approve posts
       approve_posts_label: Godkänn inlägg
-      #reply_without_approval_label: Reply to discussions without approval
       reply_without_approval_label: Svara i en tråd utan godkännande
-      #start_discussions_without_approval_label: Start discussions without approval
       start_discussions_without_approval_label: Starta tråd utan godkännande
 
   # Translations in this namespace are used by the forum user interface.
@@ -29,7 +26,6 @@ flarum-approval:
 
     # These translations are used by the post control buttons.
     post_controls:
-      #approve_button: Approve
       approve_button: Godkänn
 
   ##
@@ -38,5 +34,4 @@ flarum-approval:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    #awaiting_approval: Awaiting approval
     awaiting_approval: Väntar på godkännande
