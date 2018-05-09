@@ -27,7 +27,8 @@ If you ever need to update, just run `composer update` in your Flarum root folde
 ## Extension Compatibility
 This project mainly translates the Flarum Core and it's bundled extensions, but it's also compatible with the following community created extensions:
 
-- [**filter**](https://github.com/issyrocks12/flarum-ext-filter) by issyrocks12 _(v1.2.2)_
+- [**filter**](https://github.com/issyrocks12/flarum-ext-filter) by issyrocks12 _(1.2.2)_
+- [**gamification**](https://gitlab.com/ReDevelopers/ReFlar/gamification) by ReFlar _(3.0.3)_
 
 ## Thanks
 A big thanks to [@acarlsson](https://github.com/acarlsson) who created [the first Swedish language extension](https://github.com/acarlsson/flarum-ext-swedish) for Flarum. A lot of the initial translations came from that project. Some things were changed, more has been (and will continue to be) added. Again, thank you!
