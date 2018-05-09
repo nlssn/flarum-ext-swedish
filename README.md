@@ -32,6 +32,7 @@ This project mainly translates the Flarum Core and it's bundled extensions, but 
 - [**links**](https://github.com/sijad/flarum-ext-links) by sijad _(0.1.0-beta.6)_
 - [**money**](https://github.com/AntoineFr/flarum-ext-money) by AntoineFr _(0.5.0)_
 - [**recaptcha**](https://github.com/sijad/flarum-ext-recaptcha) by sijad _(0.0.2)_
+- [**twofactor**](https://github.com/issyrocks12/flarum-ext-twofactor) by issyrocks12 _(1.0.1)_
 
 ## Thanks
 A big thanks to [@acarlsson](https://github.com/acarlsson) who created [the first Swedish language extension](https://github.com/acarlsson/flarum-ext-swedish) for Flarum. A lot of the initial translations came from that project. Some things were changed, more has been (and will continue to be) added. Again, thank you!
