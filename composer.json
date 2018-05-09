@@ -2,7 +2,7 @@
     "name": "nlssn/flarum-ext-swedish",
     "type": "flarum-extension",
     "description": "Swedish language extension.",
-    "keywords": ["locale"],
+    "keywords": ["extension", "flarum", "swedish", "locale", "translation"],
     "license": "MIT",
     "authors": [
         {
@@ -16,7 +16,7 @@
         "source": "https://github.com/nlssn/flarum-ext-swedish"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.6"
+        "flarum/core": "^0.1.0-beta.7"
     },
     "extra": {
         "flarum-extension": {
