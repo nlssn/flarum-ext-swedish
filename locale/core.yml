@@ -149,6 +149,7 @@ core:
       start_discussions_label: Starta trådar
       view_discussions_label: Läsa trådar
       view_post_ips_label: Se ett inläggs IP-adress
+      view_user_list_label: Visa användarlista
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -525,6 +526,7 @@ core:
     notifications: Notifikationer
     okay: OK                                       # Referenced by flarum-tags.yml
     password: Lösenord
+    rename: Byt namn
     reply: Svara                                   # Referenced by flarum-mentions.yml
     reset_your_password: Återställ ditt lösenord
     restore: Återställ
