@@ -29,6 +29,7 @@ This project mainly translates the Flarum Core and it's bundled extensions, but 
 
 - [**filter**](https://github.com/issyrocks12/flarum-ext-filter) by issyrocks12 _(1.2.2)_
 - [**gamification**](https://gitlab.com/ReDevelopers/ReFlar/gamification) by ReFlar _(3.0.3)_
+- [**links**](https://github.com/sijad/flarum-ext-links) by sijad _(0.1.0-beta.6)_
 
 ## Thanks
 A big thanks to [@acarlsson](https://github.com/acarlsson) who created [the first Swedish language extension](https://github.com/acarlsson/flarum-ext-swedish) for Flarum. A lot of the initial translations came from that project. Some things were changed, more has been (and will continue to be) added. Again, thank you!
