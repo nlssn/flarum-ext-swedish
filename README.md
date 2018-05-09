@@ -2,16 +2,14 @@
 A Swedish language extension for [Flarum](http://flarum.org/).
 
 ## Information
-**Stable:** [1.0.0](https://github.com/nlssn/flarum-ext-swedish/archive/v1.0.0.zip) | **Unstable:** [1.0.0-dev](https://github.com/nlssn/flarum-ext-swedish/archive/master.zip) | **Requires:** Flarum v0.1.0-beta.6
+**Stable:** [2.0.0](https://github.com/nlssn/flarum-ext-swedish/archive/v2.0.0.zip) | **Unstable:** [1.0.0-dev](https://github.com/nlssn/flarum-ext-swedish/archive/master.zip) | **Requires:** Flarum v0.1.0-beta.7
 
 This project aims to be a central repo for Swedish translations of the Flarum forum software and many popular community made extensions.
 
 **Want to help out?**
 - Report [issues here on GitHub](https://github.com/nlssn/flarum-ext-swedish/issues) or in the [Flarum Community thread](https://discuss.flarum.org/d/5615-swedish-language-extension).
 - Give [suggestions](https://github.com/nlssn/flarum-ext-swedish/issues) on which [community extensions](https://discuss.flarum.org/t/extensions) should be translated next.
-- Clone the [English Language Pack](https://github.com/flarum/flarum-ext-english) and translate it to your own language. Be sure to check for [existing](https://github.com/moutonnoireu/flarumextlist/wiki/Extension-List) [translations](https://discuss.flarum.org/t/languages) first.
-- Star this repo on GitHub.
-- Send me a [nice tweet](http://twitter.com/iamnlssn) ;)
+- Clone the [English Language Pack](https://github.com/flarum/flarum-ext-english) and translate it to your own language. Be sure to check for [existing translations](https://discuss.flarum.org/t/languages) first.
 
 ## Installation
 To install this extension start by running the following command in your Flarum root folder:
