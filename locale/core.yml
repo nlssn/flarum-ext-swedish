@@ -25,9 +25,9 @@ core:
       custom_styles_text: Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.
       dark_mode_label: Mörkt Tema
       edit_css_button: Ändra Anpassad CSS
-      edit_header_button: Edit Custom Header
+      edit_header_button: Redigera Anpassat Sidhubud
       enter_hex_message: Ange en hexadecimal färgkod.
-      favicon_heading: Favicon
+      favicon_heading: Favikon
       favicon_text: Ladda upp en bild som kommer att visas som forumets bokmärkesikon.
       logo_heading: Logotyp
       logo_text: Ladda upp en bild som kommer att visas istället för forumets titel.
@@ -61,9 +61,9 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums <a>standardutseende</a>."
+      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
       submit_button: => core.ref.save_changes
-      title: Ändra Anpassad CSS
+      title: Redigera Anpassad CSS
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -226,7 +226,7 @@ core:
       delete_confirmation: "Är du säker på att du vill radera den här tråden?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Logga in för att svara
-      rename_button: = core.ref.rename
+      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -419,9 +419,7 @@ core:
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
-      #kilo_text: K
       kilo_text: K
-      #mega_text: M
       mega_text: M
 
     # These translations are used to punctuate a series of items.
@@ -456,9 +454,9 @@ core:
       submit_button: Återställ Lösenord
       title: => core.ref.reset_your_password
 
-   # Translations in this namespace are used in messages output by the API.
-   api:
-     invalid_username_message: "Användarnamnet får endast innehålla bokstäver, nummer och bindestreck."
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "Användarnamnet får endast innehålla bokstäver, nummer och bindestreck."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -524,20 +522,20 @@ core:
     mark_all_as_read: Markera alla som lästa
     next_page: Nästa Sida
     notifications: Notifikationer
-    okay: OK                                       # Referenced by flarum-tags.yml
+    okay: OK                                     # Referenced by flarum-tags.yml
     password: Lösenord
     rename: Byt namn
-    reply: Svara                                   # Referenced by flarum-mentions.yml
+    reply: Svara                                 # Referenced by flarum-mentions.yml
     reset_your_password: Återställ ditt lösenord
     restore: Återställ
-    save_changes: Spara Ändringar                  # Referenced by flarum-suspend.yml, flarum-tags.yml
+    save_changes: Spara Ändringar                # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Inställningar
     sign_up: Bli Medlem
-    some_others: "{count} annan|{count} andra"     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count} annan|{count} andra"   # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Starta en tråd
     username: Användarnamn
     write_a_reply: Skriv ett svar...
-    you: Du                                        # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: Du                                      # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
